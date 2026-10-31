@@ -3,7 +3,8 @@ import * as core from "@actions/core";
 import * as github from "@actions/github";
 import { makeLlm } from "./llm.js";
 import { buildGraph } from "./graph.js";
-import { fetchPrFiles, upsertComment } from "./github.js";
+import { fetchPrFiles, upsertComment, reviewerLogins, findEmails } from "./github.js";
+import { sendReview, summaryLine } from "./mail.js";
 
 async function main() {
   const dryRun = core.getInput("dry-run") === "true";
@@ -34,7 +35,37 @@ async function main() {
     return;
   }
   await upsertComment(octokit, { owner, repo, issue_number: pr.number }, result.markdown);
-  // M6 (next): email review.md to the reviewer, M5b: upload artifact
+
+  // email review.md to the requested reviewer(s); never fail the run because of mail
+  const smtp = {
+    host: core.getInput("smtp-host"),
+    port: core.getInput("smtp-port"),
+    user: core.getInput("smtp-user"),
+    pass: core.getInput("smtp-pass"),
+  };
+  const from = core.getInput("mail-from");
+  if (!smtp.host || !from) {
+    core.info("SMTP not configured - skipping email.");
+    return;
+  }
+  const reviewers = await findEmails(octokit, { owner, repo, ref: pr.head.sha }, reviewerLogins(github.context.payload));
+  if (!reviewers.length) core.warning("No reviewer requested on this PR - skipping email.");
+  for (const r of reviewers) {
+    if (!r.email) {
+      core.warning(`No email for reviewer ${r.login} (add them to .github/reviewers.json) - skipping.`);
+      continue;
+    }
+    try {
+      await sendReview({
+        smtp, from, to: r.email,
+        subject: `[CAP review] ${repo} PR #${pr.number}: ${summaryLine(result.findings)}`,
+        findings: result.findings, markdown: result.markdown, prUrl: pr.html_url,
+      });
+      core.info(`Review emailed to ${r.login}`);
+    } catch (e) {
+      core.warning(`Email to ${r.login} failed: ${e.message}`);
+    }
+  }
 }
 
 main().catch((e) => core.setFailed(e.message));

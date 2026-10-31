@@ -23,6 +23,37 @@ export async function fetchPrFiles(octokit, { owner, repo, pull_number, headSha 
   return files;
 }
 
+// reviewers on the PR: all requested ones, plus the one from a review_requested event
+export function reviewerLogins(payload) {
+  const logins = new Set((payload.pull_request?.requested_reviewers ?? []).map((u) => u.login));
+  if (payload.requested_reviewer?.login) logins.add(payload.requested_reviewer.login);
+  return [...logins];
+}
+
+// username -> email: .github/reviewers.json first, then the public GitHub email, else null
+export async function findEmails(octokit, { owner, repo, ref }, logins) {
+  let map = {};
+  try {
+    const { data } = await octokit.rest.repos.getContent({ owner, repo, path: ".github/reviewers.json", ref });
+    map = JSON.parse(Buffer.from(data.content, "base64").toString("utf8"));
+  } catch {
+    /* no mapping file */
+  }
+  const out = [];
+  for (const login of logins) {
+    let email = map[login];
+    if (!email) {
+      try {
+        email = (await octokit.rest.users.getByUsername({ username: login })).data.email;
+      } catch {
+        /* ignore */
+      }
+    }
+    out.push({ login, email: email || null });
+  }
+  return out;
+}
+
 // one comment per PR: update it on every push instead of spamming
 export async function upsertComment(octokit, { owner, repo, issue_number }, body) {
   const full = `${MARKER}\n${body}`;
