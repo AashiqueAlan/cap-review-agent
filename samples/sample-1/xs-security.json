@@ -1,0 +1,9 @@
+{
+  "xsappname": "demo-claims",
+  "tenant-mode": "dedicated",
+  "scopes": [{ "name": "uaa.user", "description": "UAA" }],
+  "role-templates": [
+    { "name": "ClaimsAgent", "scope-references": ["uaa.user"] }
+  ],
+  "oauth2-configuration": { "credential-types": ["binding-secret"] }
+}

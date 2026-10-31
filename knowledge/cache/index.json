@@ -1,0 +1,608 @@
+[
+  {
+    "url": "https://sap.github.io/cloud-mta-build-tool/",
+    "agent": "btp",
+    "file": null,
+    "title": "cloud mta build tool",
+    "tags": [
+      "mta"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/development-in-cloud-foundry-environment",
+    "agent": "btp",
+    "file": null,
+    "title": "development in cloud foundry environment",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/defining-multitarget-application-deployment-descriptors-for-cloud-foundry",
+    "agent": "btp",
+    "file": null,
+    "title": "defining multitarget application deployment descriptors for cloud foundry",
+    "tags": [
+      "mta",
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-developer-guide-for-cloud-foundry-multitarget-applications-sap-business-app-studio/mta-development-descriptor",
+    "agent": "btp",
+    "file": null,
+    "title": "mta development descriptor",
+    "tags": [
+      "mta",
+      "deploy",
+      "db"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-developer-guide-for-cloud-foundry-multitarget-applications-sap-web-ide-full-stack/mta-deployment-descriptor-syntax",
+    "agent": "btp",
+    "file": null,
+    "title": "mta deployment descriptor syntax",
+    "tags": [
+      "mta",
+      "deploy",
+      "db"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/mta-deployment-descriptor-examples",
+    "agent": "btp",
+    "file": null,
+    "title": "mta deployment descriptor examples",
+    "tags": [
+      "mta",
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/parameters-and-properties",
+    "agent": "btp",
+    "file": null,
+    "title": "parameters and properties",
+    "tags": []
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/list-of-supported-mta-parameters",
+    "agent": "btp",
+    "file": null,
+    "title": "list of supported mta parameters",
+    "tags": [
+      "mta"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/service-creation-parameters",
+    "agent": "btp",
+    "file": null,
+    "title": "service creation parameters",
+    "tags": []
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/defining-mta-extension-descriptors",
+    "agent": "btp",
+    "file": null,
+    "title": "defining mta extension descriptors",
+    "tags": [
+      "mta"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf",
+    "agent": "btp",
+    "file": null,
+    "title": "The Multitarget Application Mоdel.pdf",
+    "tags": [
+      "mta"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-developer-guide-for-cloud-foundry-multitarget-applications-sap-web-ide-full-stack/cloud-mta-build-tool-mbt",
+    "agent": "btp",
+    "file": null,
+    "title": "cloud mta build tool mbt",
+    "tags": [
+      "mta",
+      "deploy",
+      "db"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-application-plug-in-for-cloud-foundry-command-line-interface",
+    "agent": "btp",
+    "file": null,
+    "title": "multitarget application plug in for cloud foundry command line interface",
+    "tags": [
+      "mta",
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/install-multiapps-cli-plugin-in-cloud-foundry-environment",
+    "agent": "btp",
+    "file": null,
+    "title": "install multiapps cli plugin in cloud foundry environment",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-developer-guide-for-cloud-foundry-multitarget-applications-sap-web-ide-full-stack/deploy-multitarget-application-with-command-line-tools",
+    "agent": "btp",
+    "file": null,
+    "title": "deploy multitarget application with command line tools",
+    "tags": [
+      "mta",
+      "deploy",
+      "db"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/0cb13f10a70a464e840aa53723a59e71.html",
+    "agent": "btp",
+    "file": null,
+    "title": "0cb13f10a70a464e840aa53723a59e71",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/deploy-content-using-generic-application-content-deployer",
+    "agent": "btp",
+    "file": null,
+    "title": "deploy content using generic application content deployer",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/configuration-options-for-sap-authorization-and-trust-management-service",
+    "agent": "btp",
+    "file": null,
+    "title": "configuration options for sap authorization and trust management service",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/3240307e513e4bceaa75e4134d337fab.html",
+    "agent": "btp",
+    "file": null,
+    "title": "3240307e513e4bceaa75e4134d337fab",
+    "tags": []
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/enable-mtls-authentication-to-sap-authorization-and-trust-management-service-for-your-application",
+    "agent": "btp",
+    "file": null,
+    "title": "enable mtls authentication to sap authorization and trust management service for your application",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/btp-security",
+    "agent": "btp",
+    "file": null,
+    "title": "btp security",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/bas/developing-html5-application/managed-approuter-project-result?locale=en-US&state=PRODUCTION&version=Cloud",
+    "agent": "btp",
+    "file": null,
+    "title": "managed approuter project result",
+    "tags": [
+      "approuter"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/r/17d50220bcd848aa854c9c182d65b699/Latest/en-US/41e63bde991a485ea362fc5ba35cf5bc.html",
+    "agent": "btp",
+    "file": null,
+    "title": "41e63bde991a485ea362fc5ba35cf5bc",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/btp-developers-guide/develop-7e306865dadb4473a4d66d81b7d83004",
+    "agent": "both",
+    "file": null,
+    "title": "develop 7e306865dadb4473a4d66d81b7d83004",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/releases/",
+    "agent": "cap",
+    "file": null,
+    "title": "releases",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/get-started/",
+    "agent": "cap",
+    "file": null,
+    "title": "get started",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/tools/cds-bind.md",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-tools-cds-bind-md.md",
+    "title": "Hybrid Testing { hybrid-testing}",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/tools/cds-cli",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-tools-cds-cli.md",
+    "title": "CDS Command Line Interface (CLI) {cli}",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/cds-test.md",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-cds-test-md.md",
+    "title": "Testing with cds.test",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/java/developing-applications/testing",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-java-developing-applications-testing.md",
+    "title": "Testing Applications { testing-cap-java-applications }",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/java/developing-applications/running",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-java-developing-applications-running.md",
+    "title": "Running Applications { local-development-support }",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/databases/sqlite",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-databases-sqlite.md",
+    "title": "Using SQLite for Development",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/databases/h2",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-databases-h2.md",
+    "title": "Using H2 for Development in CAP Java",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/databases/initial-data",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-databases-initial-data.md",
+    "title": "Adding Initial Data",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/security/authentication",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-security-authentication.md",
+    "title": "Authentication { authentication }",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/authentication",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-authentication.md",
+    "title": "Authentication",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/integration/calesi",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-integration-calesi.md",
+    "title": "CAP-Level Service Integration",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/integration/inner-loops",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-integration-inner-loops.md",
+    "title": "Inner-Loop Development",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/remote-services",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-remote-services.md",
+    "title": "Remote Services <Concept />",
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/events/messaging",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-events-messaging.md",
+    "title": "CAP-level Messaging",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/multitenancy/",
+    "agent": "cap",
+    "file": null,
+    "title": "multitenancy",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/java/operating-applications/dashboard",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-java-operating-applications-dashboard.md",
+    "title": "Developer Dashboard",
+    "tags": []
+  },
+  {
+    "url": "https://developers.sap.com/tutorials/cap-mocking-auth.html",
+    "agent": "cap",
+    "file": null,
+    "title": "cap mocking auth",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "url": "https://github.com/cap-js/docs",
+    "agent": "cap",
+    "file": null,
+    "title": "docs",
+    "tags": []
+  },
+  {
+    "url": "https://github.com/cap-js/cds-test",
+    "agent": "cap",
+    "file": null,
+    "title": "cds test",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://github.com/SAP-samples/cloud-cap-samples",
+    "agent": "cap",
+    "file": null,
+    "title": "cloud cap samples",
+    "tags": []
+  },
+  {
+    "url": "https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/16-Test-Trace-Debug.md",
+    "agent": "cap",
+    "file": null,
+    "title": "16 Test Trace Debug",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://github.com/SAP-archive/btp-cap-multitenant-saas/blob/main/docu/4-expert/local-hybrid-development/README.md",
+    "agent": "cap",
+    "file": null,
+    "title": "README",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-cap-hybrid-testing/ba-p/13556582",
+    "agent": "cap",
+    "file": null,
+    "title": "13556582",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/btp-cap-how-to-connect-to-remote-services-locally-in-cap-application/ba-p/13550070",
+    "agent": "cap",
+    "file": null,
+    "title": "13550070",
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/establishing-connectivity-between-a-local-cap-runtime-and-on-premise/ba-p/14219908",
+    "agent": "cap",
+    "file": null,
+    "title": "14219908",
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-members/creating-a-hybrid-cap-node-js-profile-with-postgresql-on-btp-from-business/ba-p/14233631",
+    "agent": "cap",
+    "file": null,
+    "title": "14233631",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-members/testing-your-cap-hana-artifacts-with-jest-including-multitenancy/ba-p/13526850",
+    "agent": "cap",
+    "file": null,
+    "title": "13526850",
+    "tags": [
+      "db",
+      "testing"
+    ]
+  },
+  {
+    "url": "https://community.sap.com/t5/technology-q-a/sap-business-application-studio-live-reload-port-error-during-cap-hybrid/qaq-p/12601288",
+    "agent": "cap",
+    "file": null,
+    "title": "12601288",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/deploy/to-cf",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-deploy-to-cf.md",
+    "title": "Deploy to Cloud Foundry",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/deploy/",
+    "agent": "cap",
+    "file": null,
+    "title": "deploy",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/deploy/microservices",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-guides-deploy-microservices.md",
+    "title": "Microservices with CAP",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/btp-developers-guide/mission-develop-enterprise-grade-cap-application-following-sap-btp-developer-s-guide",
+    "agent": "cap",
+    "file": null,
+    "title": "mission develop enterprise grade cap application following sap btp developer s guide",
+    "tags": []
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/developing-with-sap-cloud-application-programming-model",
+    "agent": "cap",
+    "file": null,
+    "title": "developing with sap cloud application programming model",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/deploy/to-cf.md",
+    "agent": "both",
+    "file": "cap-cloud-sap-docs-guides-deploy-to-cf-md.md",
+    "title": "Deploy to Cloud Foundry",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/01c5f9ba7d6847aaaf069d153b981b51.html",
+    "agent": "cap",
+    "file": null,
+    "title": "01c5f9ba7d6847aaaf069d153b981b51",
+    "tags": []
+  },
+  {
+    "url": "https://github.com/capire/samples",
+    "agent": "cap",
+    "file": null,
+    "title": "samples",
+    "tags": []
+  },
+  {
+    "url": "https://github.com/capire/samples/tree/main/.deploy/app-router/resources",
+    "agent": "cap",
+    "file": null,
+    "title": "resources",
+    "tags": [
+      "deploy"
+    ]
+  },
+  {
+    "url": "https://www.npmjs.com/package/@sap/approuter",
+    "agent": "cap",
+    "file": null,
+    "title": "approuter",
+    "tags": [
+      "approuter"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/using-services.md",
+    "agent": "cap",
+    "file": null,
+    "title": "using services",
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/remote-services.md",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-remote-services-md.md",
+    "title": "Remote Services <Concept />",
+    "tags": [
+      "remote"
+    ]
+  },
+  {
+    "url": "https://sap.github.io/cloud-sdk/docs/js/overview",
+    "agent": "cap",
+    "file": null,
+    "title": "overview",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/cds-ql",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-cds-ql.md",
+    "title": "Querying in JavaScript",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/guides/domain/",
+    "agent": "cap",
+    "file": null,
+    "title": "domain",
+    "tags": []
+  },
+  {
+    "url": "https://cap.cloud.sap/docs/node.js/events",
+    "agent": "cap",
+    "file": "cap-cloud-sap-docs-node-js-events.md",
+    "title": "Events and Requests",
+    "tags": []
+  },
+  {
+    "url": "https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax",
+    "agent": "btp",
+    "file": null,
+    "title": "application security descriptor configuration syntax",
+    "tags": [
+      "mta",
+      "security"
+    ]
+  }
+]

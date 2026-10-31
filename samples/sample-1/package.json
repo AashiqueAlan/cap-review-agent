@@ -1,0 +1,15 @@
+{
+  "name": "demo-claims",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "@cap-js/sqlite": "^2"
+  },
+  "cds": {
+    "requires": {
+      "db": { "kind": "sqlite", "credentials": { "url": ":memory:" } },
+      "auth": "mocked",
+      "mail": { "[production]": { "kind": "console" } },
+      "claimsBackend": { "destination": "DEV-100-BasicAuthentication" }
+    }
+  }
+}

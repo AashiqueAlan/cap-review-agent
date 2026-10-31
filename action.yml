@@ -1,0 +1,16 @@
+name: CAP Code Review Agent
+description: Reviews PRs against SAP CAP and BTP best practices and emails the reviewer
+inputs:
+  github-token: { description: GitHub token, required: true }
+  llm-api-key:  { description: LLM API key, required: true }
+  llm-base-url: { description: OpenAI-compatible base URL, required: true }
+  llm-model:    { description: Model name from your provider console, required: true }
+  smtp-host:    { required: false }
+  smtp-port:    { required: false, default: "587" }
+  smtp-user:    { required: false }
+  smtp-pass:    { required: false }
+  mail-from:    { required: false }
+  dry-run:      { required: false, default: "false" }
+runs:
+  using: node20
+  main: dist/index.js

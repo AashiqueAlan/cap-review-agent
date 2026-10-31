@@ -1,0 +1,32 @@
+_schema-version: "3.2"
+ID: demo-claims
+version: 1.0.0
+parameters:
+  enable-parallel-deployments: true
+  deploy_mode: html5-repo
+modules:
+  - name: claims-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: demo-xsuaa
+      - name: demo-connectivity
+  - name: claims-form
+    type: approuter.nodejs
+    path: app/router
+    requires:
+      - name: demo-xsuaa
+resources:
+  - name: demo-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json
+  - name: demo-connectivity
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: connectivity
+      service-plan: lite

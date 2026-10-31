@@ -1,0 +1,28 @@
+{
+  "name": "cap-review-agent",
+  "version": "0.1.0",
+  "description": "PR review agent for SAP CAP and BTP (MTA) best practices",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync-knowledge.js",
+    "review:local": "node scripts/run-local.js",
+    "test:router": "node scripts/test-router.js",
+    "build": "ncc build src/index.js -o dist"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.1",
+    "@actions/github": "^9.1.1",
+    "@langchain/core": "^1.3.2",
+    "@langchain/langgraph": "^1.6.0",
+    "@langchain/openai": "^1.8.0",
+    "dotenv": "^18.0.9",
+    "nodemailer": "^10.3.1"
+  }
+}
